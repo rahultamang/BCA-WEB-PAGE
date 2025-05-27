@@ -3,15 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Form</title>
 </head>
 <body>
-    <h1>form</h1>
-    <form action="">
-        <div>
-            <label for="image">upload image</label>
-            <input type="file"accept=""id="image">
+    <div class="d">
+        <div class="all">
+        <h1 class="h">FORM</h1>
+        <form action="">
+            <div>
+                <div class="slide">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your full name" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="Phone">Phone:</label>
+                <input type="number" placeholder="Enter your phone number" id="Phone">
+            </div>
+            </div>
+            <br>
+            <div class="interest">
+                <label for="interest">Select your interest:</label>
+                <br>
+                Reading <input type="checkbox" id="interest">
+                Skiing <input type="checkbox" id="interest">
+                Travel <input type="checkbox" id="interest">
+                Coding <input type="checkbox" id="interest">
+            </div>
+            <br>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <br>
+                Male: <input type="radio" name="gender">
+               Female: <input type="radio" name="gender">
+                Others: <input type="radio" name="gender">
+            </div>
+            <br>
+            <div class="faculty">
+                <label for="faculty">Faculty</label>
+                <select name="" id="faculty">
+                <option value="bca">BCA</option>
+                <option value="bim">BIM</option>
+                <option value="csit">CSIT</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="image">Upload Image</label>
+                <br>
+                <br>
+                <input type="file" accept="" id="image">
+            </div>
+            <br>
+            <br>
+            <div class="y">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
         </div>
-    </form>
+    </div>
 </body>
 </html>

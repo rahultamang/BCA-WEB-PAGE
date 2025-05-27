@@ -1,0 +1,137 @@
+ /* .h{
+    text-align: center;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+.d{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  background: #FFFFFF;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  text-align: center; */
+ .d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(155deg, #c9d6ff, #e2e2e2);
+    
+}
+
+.all {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+.h {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.slide label,
+.slide input,
+.gender label,
+.interest label,
+.faculty label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555555;
+}
+.slide input,
+.all input[type="number"],
+.all select,
+.all input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.interest {
+    margin-top: 10px;
+    color: #444;
+}
+
+.interest input {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.gender {
+    margin-top: 10px;
+    color: #444;
+}
+
+.gender input {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.faculty {
+    margin-top: 10px;
+}
+.all input[type="file"] {
+    margin-top: 10px;
+}
+.y {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.y input[type="submit"],
+.y input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.y input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+}
+
+.y input[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.y input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.y input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+ 
+.h{
+    text-align: center;
+    background-color: rgb(94, 157, 158);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+
+}
